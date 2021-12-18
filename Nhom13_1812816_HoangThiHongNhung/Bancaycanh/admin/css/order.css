@@ -1,0 +1,36 @@
+input[type = text] {
+    width: 80%;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+    background-image: url('searchicon.png');
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+}
+
+textarea {
+    width: 90%;
+    height: 150px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    font-size: 16px;
+    resize: none;
+    margin-left: 8%;
+}
+
+input.form-context {
+    height: 40px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+table.table.table-bordered.table-hover {
+    margin-top: 20px;
+    margin-left: 25px;
+}

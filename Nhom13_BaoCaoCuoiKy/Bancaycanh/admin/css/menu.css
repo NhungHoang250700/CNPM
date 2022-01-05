@@ -1,0 +1,55 @@
+.main-admin .logo {
+    text-align: center;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.main-admin ul li{
+    list-style:none;
+    line-height:50px;
+}
+.main-admin ul li a{
+    color: white;
+    font-size: 14px;
+    font-weight: 400;
+    text-decoration: none;
+    display: block;
+    padding-left: 50px;
+    border-left: 3px solid transparent;
+    
+}
+.main-admin ul{
+    line-height: 40px;
+    padding: 0;
+    margin: 0 !important;
+    text-align: left;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+.main-admin ul li a:hover{
+    color: white;
+    background: #383838;
+}
+.main-admin ul li a span{
+    margin-left: 10px;
+
+}
+.main-admin ul li a .drop{
+    float: right;
+    margin-right: 20px;
+    margin-top: 12px;
+
+}
+.main-admin ul li ul{
+    display: none;
+    position: static;
+}
+.main-admin ul li .baiviet-show.show{
+    display: block;
+
+}
+.main-admin ul li .sanpham-show.show1{
+    display: block;
+}
+.main-admin ul li .khachhang-show.show2{
+    display: block;
+}

@@ -1,0 +1,77 @@
+.header_language{
+	margin-top:10px
+}
+.header_language a{
+    float:right;
+    margin-right:30px;
+    color:white !important;
+}
+.header_language a i{
+   margin-right:5px
+}
+.header_language:hover ul {
+	
+    background: #fff;
+    width: 150px;
+	opacity: 1;
+	visibility: visible;
+}
+
+.header_language:after {
+	position: absolute;
+	top: 1px;
+	height: 20px;
+	
+	background: white;
+	opacity: 0.1;
+	content: "";
+}
+
+.header_language img {
+	margin-right: 6px;
+}
+
+.header_language div {
+	font-size: 14px;
+	color: white;
+	display: inline-block;
+	margin-right: 4px;
+}
+
+.header_language span {
+	font-size: 14px;
+	color: white;
+	position: relative;
+	
+}
+
+.header_language ul {
+	
+	margin-right:30px;
+	background: white;
+	text-align: left;
+	padding: 0px 0;
+	position: absolute;
+	right:0;
+	top: 15px;
+	opacity: 0;
+	visibility: hidden;
+	-webkit-transition: all, 0.3s;
+	-moz-transition: all, 0.3s;
+	-ms-transition: all, 0.3s;
+	-o-transition: all, 0.3s;
+	transition: all, 0.3s;
+}
+
+.header_language ul li {
+	list-style: none;
+}
+
+.header_language ul li a {
+	font-size: 14px;
+	color:green !important;
+padding-left:10px;
+font-weight: 600;
+	padding-right:15px;
+}
+
